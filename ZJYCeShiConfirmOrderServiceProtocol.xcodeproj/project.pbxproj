@@ -26,6 +26,7 @@
 		18DA23E51E2373CB00AC73B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DA23E81E2373CB00AC73B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DA23EA1E2373CB00AC73B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DA23F11E2373FE00AC73B6 /* ZJYCeShiConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJYCeShiConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		18DA23D81E2373CB00AC73B6 /* ZJYCeShiConfirmOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				18DA23F01E2373E700AC73B6 /* ZJYCeShiConfirmOrderServiceProtocol */,
 				18DA23DC1E2373CB00AC73B6 /* AppDelegate.h */,
 				18DA23DD1E2373CB00AC73B6 /* AppDelegate.m */,
 				18DA23DF1E2373CB00AC73B6 /* ViewController.h */,
@@ -77,6 +79,14 @@
 				18DA23DA1E2373CB00AC73B6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DA23F01E2373E700AC73B6 /* ZJYCeShiConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				18DA23F11E2373FE00AC73B6 /* ZJYCeShiConfirmOrderServiceProtocol.h */,
+			);
+			path = ZJYCeShiConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
